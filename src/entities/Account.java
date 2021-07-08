@@ -1,6 +1,6 @@
 package entities;
 
-public class Account {
+public class  Account {
 
 	private Integer number;
 	private String holder;
@@ -32,7 +32,7 @@ public class Account {
 	}
 
 	public void withdraw(double amount) {
-		balance -= amount;
+		balance -= amount + 5.0;
 	}
 
 	public void deposit(double amount) {
